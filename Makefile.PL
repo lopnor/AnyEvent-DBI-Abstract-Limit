@@ -3,6 +3,9 @@ name 'AnyEvent-DBI-Abstract-Limit';
 all_from 'lib/AnyEvent/DBI/Abstract/Limit.pm';
 
 # requires '';
+requires 'parent';
+requires 'AnyEvent::DBI';
+requires 'SQL::Abstract::Limit';
 
 tests 't/*.t';
 author_tests 'xt';
