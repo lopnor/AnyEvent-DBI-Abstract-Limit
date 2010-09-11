@@ -5,6 +5,7 @@ all_from 'lib/AnyEvent/DBI/Abstract/Limit.pm';
 # requires '';
 requires 'parent';
 requires 'AnyEvent::DBI';
+requires 'AnyEvent::DBI::Abstract';
 requires 'SQL::Abstract::Limit';
 
 tests 't/*.t';
