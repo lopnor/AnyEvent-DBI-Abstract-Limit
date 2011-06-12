@@ -2,7 +2,7 @@ package AnyEvent::DBI::Abstract::Limit;
 
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use parent 'AnyEvent::DBI::Abstract';
 use SQL::Abstract::Limit;
@@ -29,7 +29,8 @@ AnyEvent::DBI::Abstract::Limit - AnyEvent::DBI + SQL::Abstract::Limit
 
 =head1 DESCRIPTION
 
-AnyEvent::DBI::Abstract::Limit is
+AnyEvent::DBI::Abstract::Limit is AnyEvent::DBI::Abstract subclass 
+that uses SQL::Abstract::Limit.
 
 =head1 AUTHOR
 
